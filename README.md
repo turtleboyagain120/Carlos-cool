@@ -9,7 +9,9 @@ Welcome to the official repository for **Carlos: Simulation Wars**, engineered a
 
 * **Install**: Click the green **Code** button at the top right, then click **Download ZIP**.
 * **Extract**: Right-click the downloaded file and choose **Extract All** (or double-click it on Mac).
-* **Play**: Open the folder, double-click **`index.html`**, and start playing instantly in your browser!
+* **Play**: Open the folder, double-click **`Project (1).html`**, and start playing instantly in your browser!
+
+⚠️ **CRITICAL WARNING**: **ONLY** use `Project (1).html` to run the game. Do **NOT** attempt to open, extract, or run `Project (2).zip` or `Project (4).zip`. Those zip files are configured for completely different external deployment builds and will instantly fail or crash if run locally.
 
 ---
 
@@ -33,7 +35,7 @@ This repository operates under a professional multi-licensing strategy to strict
 * **Rules**: Strong Copyleft. Anyone may fork, modify, and redistribute this engine. However, **all derivative works must remain open-source under the GPLv3**, and the original copyright notice identifying `turtleboyagain120` must remain intact on every copy.
 
 ### 🖼️ 2. Creative Assets: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
-* **Scope**: Restricted to the `/assets/` directory (including custom, frame-by-frame character punch animations, sprites, illustrations, and original audio files).
+* **Scope**: Restricted to all creative assets bundled within the project framework, including the `/assets/` directory (custom frame-by-frame character punch animations, sprites, illustrations, and original audio files).
 * **Rules**: Third parties may use, remix, and build upon these assets, but they **must provide explicit, clear legal attribution** to `turtleboyagain120` and distribute their contributions under the **same identical license**.
 
 ---
@@ -50,16 +52,16 @@ To prevent malicious web arcades and scraper bots from stealing this standalone 
 
 ## 📄 Licensing Summary
 
-* **Software / Code:** Licensed under the GNU General Public License v3.0 (see `LICENSE-CODE.txt`).
-* **Art, Audio, & Media Assets:** All files inside the `/assets` directory (or another file) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (see `LICENSE-ASSETS.txt`).
+* **Software / Code:** Licensed under the GNU General Public License v3.0 (see `LICENSE` or `LICENSE-CODE.txt`).
+* **Art, Audio, & Media Assets:** All underlying creative assets and files inside the `/assets` directory are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (see `LICENSE.ART` or `LICENSE-ASSETS.txt`).
 
 ---
 
 ## 📦 Distribution & Target Build
 
-The game is actively compiled using the **Zip (ideal for websites)** packaging profile. 
+The game's active stable build is compiled using the **Zip (ideal for websites)** packaging profile and delivered via an uncompressed standalone webpage profile.
 
-* **Why Zip?** This maintains a lightweight, web-optimized architecture that preserves individual directory trees—ensuring the `/assets/` licensing boundaries and the anti-piracy domain tracking blocks continue to function flawlessly.
+* **Why Zip / Webpage Profile?** This maintains a lightweight, web-optimized architecture that preserves individual directory trees—ensuring the `/assets/` licensing boundaries and the anti-piracy domain tracking blocks continue to function flawlessly.
 * **Desktop Profiles**: Standalone environments (such as Electron or NW.js) are explicitly bypassed to eliminate browser-bundling overhead and keep the project bloat-free.
 
 ---
