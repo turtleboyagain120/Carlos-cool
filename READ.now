@@ -1,0 +1,24 @@
+=======================================================================
+PROJECT LICENSING & TRADEMARKS
+=======================================================================
+
+This game project uses a dual-license structure to separate software 
+source code protections from creative media asset protections.
+
+1. SOFTWARE CODE (GPL-3.0)
+All program source code, game engine scripts, logic, and build files 
+are licensed under the GNU General Public License v3.0. 
+See the raw file 'LICENSE-CODE.txt' for the complete legal text.
+
+2. GAME ASSETS & ART (CC-BY-SA-4.0)
+All visual artwork, 3D models, textures, animations, music, sound 
+effects, and dialogue files are licensed under the Creative Commons 
+Attribution-ShareAlike 4.0 International License. 
+See the raw file 'LICENSE-ASSETS.txt' for the complete legal text.
+
+3. TRADEMARK NOTICE
+The game title, unique character names, and associated branding/logos 
+are trademarks of the project creator. These open-source licenses 
+do NOT grant permissions to reuse the brand name or logos for your 
+own commercial or public derivative game forks.
+=======================================================================
