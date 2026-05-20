@@ -44,6 +44,12 @@ To prevent malicious web arcades and scraper bots from stealing this standalone 
 * **Domain & Environment Sensing**: The game cross-references a hardcoded internal backdrop label against the native sensing block `[backdrop name] of [Stage]`, alongside secondary framework environment checks.
 * **Anti-Tamper Protocol**: If a scraper alters the internal file directory architecture or attempts to host the game bundle on an unapproved domain, the runtime instantly triggers a complete lockdown.
 * **The Lockdown Screen**: The game halts execution, renders a permanent black screen, and displays a strict notice directing players to download authentic updates exclusively from the official GitHub repository.
+---
+## Licensing
+
+* **Software / Code:** Licensed under the GNU General Public License v3.0 (see `LICENSE-CODE.txt`).
+* **Art, Audio, & Media Assets:** All files inside the `/assets` directory (or another file) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (see `LICENSE-ASSETS.txt`).
+---
 
 ---
 
