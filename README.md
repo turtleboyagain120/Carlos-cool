@@ -1,3 +1,6 @@
+<img width="394" height="587" alt="Screenshot 2026-05-14 125934" src="https://github.com/user-attachments/assets/ea0b3588-eed1-487e-abae-eb873de62167" /> <img width="418" height="616" alt="Screenshot 2026-05-14 125352" src="https://github.com/user-attachments/assets/8a2512ee-1b29-4020-8e28-a2d12e5e3e05" />
+
+
 # 🕹️ Carlos: Simulation Wars
 ### Published by turtleboyagain120™
 
@@ -10,6 +13,10 @@ Welcome to the official repository for **Carlos: Simulation Wars**, engineered a
 * **Install**: Click the green **Code** button at the top right, then click **Download ZIP**.
 * **Extract**: Right-click the downloaded file and choose **Extract All** (or double-click it on Mac).
 * **Play**: Open the folder, double-click **`Project (1).html`**, and start playing instantly in your browser!
+
+⚠️ **CRITICAL WARNING**: **ONLY** use `Project (1).html` to run the game. Do **NOT** attempt to open, extract, or run `Project (2).zip` or `Project (4).zip`. Those zip files are configured for completely different external deployment builds and will instantly fail or crash if run locally.
+
+<img width="1252" height="529" alt="image" src="https://github.com/user-attachments/assets/2d5f8373-333a-43a5-b48a-baaa33ca20f3" />
 
 ⚠️ **CRITICAL WARNING**: **ONLY** use `Project (1).html` to run the game. Do **NOT** attempt to open, extract, or run `Project (2).zip` or `Project (4).zip`. Those zip files are configured for completely different external deployment builds and will instantly fail or crash if run locally.
 
