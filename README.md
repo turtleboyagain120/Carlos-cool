@@ -1,7 +1,7 @@
 <img width="394" height="587" alt="Screenshot 2026-05-14 125934" src="https://github.com/user-attachments/assets/ea0b3588-eed1-487e-abae-eb873de62167" /> <img width="418" height="616" alt="Screenshot 2026-05-14 125352" src="https://github.com/user-attachments/assets/8a2512ee-1b29-4020-8e28-a2d12e5e3e05" />
 
 
-# 🕹️ Carlos: Simulation Wars
+# 🕹️ Carlos: Simulation Wars (everything in this repo is a demo not the full game yet.)
 ### Published by turtleboyagain120™
 
 Welcome to the official repository for **Carlos: Simulation Wars**, engineered and maintained by **turtleboyagain120**. This project is a high-performance standalone web game built using the TurboWarp ecosystem.
