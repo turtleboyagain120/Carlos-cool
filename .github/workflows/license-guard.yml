@@ -1,0 +1,16 @@
+name: Legal License Protection
+
+on:
+  pull_request:
+    paths:
+      - 'LICENSE'
+      - 'LICENSE.ART'
+
+jobs:
+  license-warning:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flag Legal Modifications
+        run: |
+          echo "⚠️ WARNING: A modification to the primary licensing architecture files has been detected."
+          echo "Ensure turtleboyagain120 has explicitly authorized changes to core GPLv3 or CC-BY-SA-4.0 terms."
