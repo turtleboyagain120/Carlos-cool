@@ -32,9 +32,9 @@ This repository operates under a professional multi-licensing strategy to strict
 * **Scope**: Applies to all core engine code, project JSON data, HTML templates, and structural files in the root directory.
 * **Rules**: Strong Copyleft. Anyone may fork, modify, and redistribute this engine. However, **all derivative works must remain open-source under the GPLv3**, and the original copyright notice identifying `turtleboyagain120` must remain intact on every copy.
 
-### 🖼️ 2. Creative Assets: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+### 🖼️ 2. Creative Assets: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
 * **Scope**: Restricted to the `/assets/` directory (including custom, frame-by-frame character punch animations, sprites, illustrations, and original audio files).
-* **Rules**: Third parties may use these assets, but they **must provide explicit, clear legal attribution** to `turtleboyagain120`. They cannot be repackaged into asset bundles or commercial products without credit.
+* **Rules**: Third parties may use, remix, and build upon these assets, but they **must provide explicit, clear legal attribution** to `turtleboyagain120` and distribute their contributions under the **same identical license**.
 
 ---
 
@@ -42,15 +42,16 @@ This repository operates under a professional multi-licensing strategy to strict
 
 To prevent malicious web arcades and scraper bots from stealing this standalone web bundle, the application features an integrated, lightweight **3-Block DRM Lock**:
 
-* **Domain & Environment Sensing**: The game cross-references a hardcoded internal backdrop label against the native sensing block `[backdrop name] of [Stage]`, alongside secondary framework environment checks.
+* **Domain & Environment Sensing**: The game utilizes specialized environment sensing blocks to cross-reference the native browser URL and environment framework against hardcoded parameters.
 * **Anti-Tamper Protocol**: If a scraper alters the internal file directory architecture or attempts to host the game bundle on an unapproved domain, the runtime instantly triggers a complete lockdown.
 * **The Lockdown Screen**: The game halts execution, renders a permanent black screen, and displays a strict notice directing players to download authentic updates exclusively from the official GitHub repository.
+
 ---
-## Licensing
+
+## 📄 Licensing Summary
 
 * **Software / Code:** Licensed under the GNU General Public License v3.0 (see `LICENSE-CODE.txt`).
 * **Art, Audio, & Media Assets:** All files inside the `/assets` directory (or another file) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (see `LICENSE-ASSETS.txt`).
----
 
 ---
 
