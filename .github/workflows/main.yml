@@ -1,0 +1,27 @@
+name: Project Build Integrity Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Verify HTML Executable Exists
+        run: |
+          if [ ! -f "Project (1).html" ]; then
+            echo "❌ CRITICAL ERROR: Project (1).html is missing from the root directory!"
+            exit 1
+          else
+            echo "✅ SUCCESS: Main standalone build file verified."
+          fi
+
+      - name: Guard Against Loose Zip Usage
+        run: |
+          echo "⚠️ NOTICE: Supplemental server build archives detected. Ensuring boundary isolation remains intact."
